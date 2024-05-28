@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя веб-сторінка</title>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Світло-сірий колір тла */
+            color: #333; /* Чорний колір тексту */
+            font-family: Arial, sans-serif; /* Шрифт тексту */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%; /* Ширина  */
+            margin: 0 auto; /* Вирівнювання по центру */
+            padding: 20px;
+            background-color: #fff; /* Білий колір  */
+            border-radius: 10px; /* Закруглені кути */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь */
+        }
+
+        /* Стилі для заголовка */
+        h1 {
+            color: #007bff; /* Синій колір для заголовка */
+            text-align: center;
+        }
+
+        /* Стилі для параграфів */
+        p {
+            font-size: 18px; /* Розмір тексту */
+            line-height: 1.6; /* Висота рядка */
+        }
+
+        /* Стилі для кожного із блоків */
+        .block {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        /* Стилі для різних кольорових блоків */
+        .block:nth-child(odd) {
+            background-color: #f8d7da; /* Світло-червоний колір */
+        }
+
+        .block:nth-child(even) {
+            background-color: #d4edda; /* Світло-зелений колір */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Моя веб-сторінка</h1>
+    <div class="block">
+        <p>Це перший блок зі світло-зеленим кольором.</p>
+    </div>
+    <div class="block">
+        <p>Це другий блок зі світло-червоним кольором.</p>
+    </div>
+    <div class="block">
+        <p>Це третій блок зі світло-зеленим кольром.</p>
+    </div>
+</div>
+
+</body>
+</html>
